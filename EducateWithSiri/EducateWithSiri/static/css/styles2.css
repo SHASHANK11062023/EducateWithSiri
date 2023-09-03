@@ -61,23 +61,24 @@ body {
     color: #fff;
     padding: 20px 0;
 }
-span{
-    color: darkmagenta;
-}
+/* h1{
+    ;
+} */
 /* styles1.css */
 
 /* Define the animation */
-@keyframes moveLeftToRight {
+/* @keyframes moveLeftToRight {
     from {
       transform: translateX(-100%);
     }
     to {
-      transform: translateX(0);
+      transform: translateX(100%);
     }
-  }
+  } */
   
-  /* Apply the animation to the .move-text class */
-  .move-text {
-    animation: moveLeftToRight 2s ease;
-  }
+  Apply the animation to the .move-text class
+  /* .move-text {
+    animation: moveLeftToRight 12s linear infinite; /* Infinite looping */
+  } */
+  
   
