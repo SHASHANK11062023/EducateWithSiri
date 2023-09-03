@@ -1,0 +1,83 @@
+/* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #333;
+}
+
+.hero {
+    background-image: url('your-background-image.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 150px 0;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+    background-color: #b83737;
+}
+
+.feature {
+    text-align: center;
+    max-width: 300px;
+}
+
+.feature h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 1.2rem;
+}
+
+.footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+span{
+    color: darkmagenta;
+}
+/* styles1.css */
+
+/* Define the animation */
+@keyframes moveLeftToRight {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+  /* Apply the animation to the .move-text class */
+  .move-text {
+    animation: moveLeftToRight 2s ease;
+  }
+  

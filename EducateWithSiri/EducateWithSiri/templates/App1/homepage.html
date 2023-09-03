@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Educational Videos</title>
+</head>
+<body>
+    <h1>Educational Videos</h1>
+    <ul>
+        {% for video in videos %}
+            <li>
+                <h2>{{ video.title }}</h2>
+                <p>{{ video.description }}</p>
+                <iframe width="560" height="315" src="{{ video.video_url }}" frameborder="0" allowfullscreen></iframe>
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
